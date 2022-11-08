@@ -393,3 +393,7 @@ pub fn interactive_mode(handle: &mut DeviceHandle<GlobalContext>) -> rusb::Resul
     }
     Ok(())
 }
+
+fn main() {
+    println!("Hello World!");
+}
